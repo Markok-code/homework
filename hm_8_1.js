@@ -16,4 +16,3 @@ let ladder = {
     }
   };
   console.log(ladder.up().up().showStep())
-  console.log(ladder.up().showStep())
