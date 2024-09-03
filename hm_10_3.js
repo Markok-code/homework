@@ -13,7 +13,7 @@ const contactBook = {
     ],
 
     findContactByName: function(name) {
-        return this.contacts.find(contact => contact.name.toLowerCase() === name.toLowerCase());
+        return this.contacts.find(contact => contact.name() === name());
     },
     
     addContact: function(name, phone, email) {
