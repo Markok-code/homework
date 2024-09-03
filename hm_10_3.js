@@ -12,11 +12,11 @@ const contactBook = {
         }
     ],
 
-    findContactByName: function(name) {
+    findContact: function(name) {
         return this.contacts.find(contact => contact.name() === name());
     },
     
-    addContact: function(name, phone, email) {
+    addCon: function(name, phone, email) {
         this.contacts.push({ name, phone, email });
     }
 };
